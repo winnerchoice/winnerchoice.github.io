@@ -1,0 +1,50 @@
+name: Actualizar Revistas Oasis
+
+on:
+  schedule:
+    # Ejecución automática a las 10:00 AM, 11:00 AM y 12:00 PM hora de Venezuela (UTC-4)
+    - cron: '0 14,15,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-revistas:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+          
+      - name: Recrear directorio de almacenamiento
+        run: |
+          rm -rf pdfs
+          mkdir -p pdfs
+          touch pdfs/.gitkeep
+
+      - name: Procesar descargas desde Oasis
+        run: python scripts/update_revistas.py
+          
+      - name: Evaluar cambios en la cartelera
+        id: verificar
+        run: |
+          git add pdfs/ data/revistas.json
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Confirmar y publicar cambios
+        if: steps.verificar.outputs.has_changes == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git commit -m "Sincronización Oasis: $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
