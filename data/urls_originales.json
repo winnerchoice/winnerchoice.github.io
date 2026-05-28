@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "lastUpdate": "2026-05-28T00:00:00Z",
+    "version": "2.0.0"
+  },
+  "hipodromos": [
+    { "id": "belterra-park", "nombre": "Belterra Park", "logo": "img/winner/hip1.webp", "codigo_oasis": "btp" },
+    { "id": "charles-town", "nombre": "Charles Town", "logo": "img/winner/hip2.webp", "codigo_oasis": "ct" },
+    { "id": "delaware-park", "nombre": "Delaware Park", "logo": "img/winner/hip3.webp", "codigo_oasis": "del" },
+    { "id": "delta-downs", "nombre": "Delta Downs", "logo": "img/winner/hip4.webp", "codigo_oasis": "ded" },
+    { "id": "evangeline-downs", "nombre": "Evangeline Downs", "logo": "img/winner/hip5.webp", "codigo_oasis": "evd" },
+    { "id": "hawthorne-park", "nombre": "Hawthorne Park", "logo": "img/winner/hip6.webp", "codigo_oasis": "haw" },
+    { "id": "thistledown", "nombre": "ThistleDown", "logo": "img/winner/hip7.webp", "codigo_oasis": "tdn" },
+    { "id": "mountaineer", "nombre": "Mountaineer", "logo": "img/winner/hip8.webp", "codigo_oasis": "mnr" },
+    { "id": "assiniboia", "nombre": "Assiniboia Downs", "logo": "img/winner/hip9.webp", "codigo_oasis": "asd" },
+    { "id": "belmont-park", "nombre": "Belmont Park", "logo": "img/winner/hip10.webp", "codigo_oasis": "bel" },
+    { "id": "gulfstream-park", "nombre": "Gulfstream Park", "logo": "img/winner/hip11.webp", "codigo_oasis": "gp" },
+    { "id": "parx-racing", "nombre": "Parx Racing", "logo": "img/winner/hip12.webp", "codigo_oasis": "prx" },
+    { "id": "santa-anita", "nombre": "Santa Anita Park", "logo": "img/winner/hip13.webp", "codigo_oasis": "sa" },
+    { "id": "indiana-grand", "nombre": "Horseshoe Indianapolis", "logo": "img/winner/hip14.webp", "codigo_oasis": "ind" },
+    { "id": "penn-national", "nombre": "Penn National", "logo": "img/winner/hip15.webp", "codigo_oasis": "pen" },
+    { "id": "churchill-downs", "nombre": "Churchill Downs", "logo": "img/winner/hip16.webp", "codigo_oasis": "cd" }
+  ]
+}
