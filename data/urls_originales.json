@@ -19,6 +19,9 @@
     { "id": "santa-anita", "nombre": "Santa Anita Park", "logo": "img/winner/hip13.webp", "codigo_oasis": "sa" },
     { "id": "indiana-grand", "nombre": "Horseshoe Indianapolis", "logo": "img/winner/hip14.webp", "codigo_oasis": "ind" },
     { "id": "penn-national", "nombre": "Penn National", "logo": "img/winner/hip15.webp", "codigo_oasis": "pen" },
-    { "id": "churchill-downs", "nombre": "Churchill Downs", "logo": "img/winner/hip16.webp", "codigo_oasis": "cd" }
+    { "id": "churchill-downs", "nombre": "Churchill Downs", "logo": "img/winner/hip16.webp", "codigo_oasis": "cd" },
+    { "id": "Laurel-Park", "nombre": "Laurel Park", "logo": "img/winner/hip17.webp", "codigo_oasis": "lrl" },
+    { "id": "Prairie-Meadows", "nombre": "Prairie Meadows", "logo": "img/winner/hip18.webp", "codigo_oasis": "prm" },
+    { "id": "Woodbine-T-bred", "nombre": "Woodbine T-bred", "logo": "img/winner/hip19.webp", "codigo_oasis": "wo" }
   ]
 }
