@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdate": "2026-05-29T01:30:57.639233",
-    "fechaCartelera": "2026-05-28",
+    "lastUpdate": "2026-05-29T17:32:45.538933",
+    "fechaCartelera": "2026-05-29",
     "totalHipodromos": 16
   },
   "hipodromos": [
@@ -60,9 +60,9 @@
       "nombre": "Hawthorne Park",
       "logo": "img/winner/hip6.webp",
       "revistas": {
-        "espanol": "pdfs/haw.pdf"
+        "espanol": "#"
       },
-      "activo": true,
+      "activo": false,
       "ultimaActualizacion": "2026-05-29"
     },
     {
@@ -70,9 +70,9 @@
       "nombre": "ThistleDown",
       "logo": "img/winner/hip7.webp",
       "revistas": {
-        "espanol": "pdfs/tdn.pdf"
+        "espanol": "#"
       },
-      "activo": true,
+      "activo": false,
       "ultimaActualizacion": "2026-05-29"
     },
     {
@@ -110,9 +110,9 @@
       "nombre": "Gulfstream Park",
       "logo": "img/winner/hip11.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/gp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-29"
     },
     {
@@ -130,9 +130,9 @@
       "nombre": "Santa Anita Park",
       "logo": "img/winner/hip13.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/sa.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-29"
     },
     {
@@ -140,9 +140,9 @@
       "nombre": "Horseshoe Indianapolis",
       "logo": "img/winner/hip14.webp",
       "revistas": {
-        "espanol": "pdfs/ind.pdf"
+        "espanol": "#"
       },
-      "activo": true,
+      "activo": false,
       "ultimaActualizacion": "2026-05-29"
     },
     {
