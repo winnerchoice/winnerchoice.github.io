@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta name="content-language" content="es-US">
+<meta charset="utf-8">
+<title>Retrospectos Hípicos: Winner, winner choice, Carreras Americanas, retrospecto gulfstream park, Revistas Hípicas.</title>
+<meta name="keywords" content="revista americana,retrospecto en pdf americanas,retrospectos americanas,retrospecto carreras americanas">
+<meta name="description" content="Acceda a las revistas hípicas más completas de los principales hipódromos de Estados Unidos. Información profesional para aficionados y apostadores.">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="canonical" href="https://winnerchoice.github.io/" />
+
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="icon">
+
+<!-- Google Web Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Libraries Stylesheet -->
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+<style>
+    :root {
+        --primary-gold: #ffd700;
+        --primary-gold-dark: #ffb700;
+        --primary-gold-light: #ffe066;
+        --dark-bg: #0a0a1a;
+        --dark-card: #1a1a2e;
+        --dark-card-hover: #252540;
+        --text-light: #e0e0e0;
+        --text-muted: #888;
+        --accent-red: #ff4444;
+        --accent-green: #00c851;
+        --gradient-gold: linear-gradient(135deg, #ffd700, #ff8c00);
+        --gradient-card: linear-gradient(145deg, #1e1e3a, #16162e);
+        --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.3);
+        --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 100%);
+        color: var(--text-light);
+        min-height: 100vh;
+    }
+
+    /* ========== TOPBAR ========== */
+    .topbar {
+        background: linear-gradient(135deg, #0a0a1a, #0f0f25);
+        border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+        padding: 12px 0;
+    }
+
+    .topbar-info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .topbar-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--text-muted);
+        font-size: 0.85rem;
+    }
+
+    .topbar-item i {
+        color: var(--primary-gold);
+        font-size: 1rem;
+    }
+
+    .topbar-item a {
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .topbar-item a:hover {
+        color: var(--primary-gold);
+    }
+
+    /* ========== NAVBAR ========== */
+    .navbar-premium {
+        background: linear-gradient(135deg, #0a0a1a, #1a1a2e);
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 2px solid var(--primary-gold);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo h1 {
+        font-size: 1.8rem;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .logo span {
+        background: var(--gradient-gold);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .nav-links-premium {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        margin: 0;
+    }
+
+    .nav-links-premium a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+
+    .nav-links-premium a:hover,
+    .nav-links-premium a.active {
+        color: var(--primary-gold);
+    }
+
+    .nav-links-premium a.active::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: var(--primary-gold);
+        border-radius: 2px;
+    }
+
+    .btn-casino-premium {
+        background: var(--gradient-gold);
+        color: #1a1a2e;
+        padding: 10px 25px;
+        border-radius: 40px;
+        font-weight: 700;
+        transition: all 0.3s ease;
+        border: none;
+    }
+
+    .btn-casino-premium:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        color: #0a0a1a;
+    }
+
+    .menu-toggle {
+        display: none;
+        font-size: 28px;
+        color: var(--primary-gold);
+        cursor: pointer;
+    }
+
+    /* ========== CAROUSEL PREMIUM ========== */
+    .carousel-premium {
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .carousel-item-premium {
+        position: relative;
+        min-height: 500px;
+    }
+
+    .carousel-img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        filter: brightness(0.6);
+    }
+
+    .carousel-caption-premium {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+        z-index: 10;
+    }
+
+    .carousel-caption-premium h5 {
+        font-size: 1rem;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: var(--primary-gold);
+    }
+
+    .carousel-caption-premium h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 20px 0;
+    }
+
+    .btn-carousel {
+        background: var(--gradient-gold);
+        color: #1a1a2e;
+        padding: 12px 35px;
+        border-radius: 40px;
+        font-weight: 700;
+        display: inline-block;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-carousel:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        color: #0a0a1a;
+    }
+
+    /* ========== SECCION GENERADORES ========== */
+    .section-header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section-badge {
+        display: inline-block;
+        background: rgba(255, 215, 0, 0.15);
+        color: var(--primary-gold);
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 5px 15px;
+        border-radius: 30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .section-header h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .section-header h1 span {
+        background: var(--gradient-gold);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .section-header p {
+        color: var(--text-muted);
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .divider-gold {
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(90deg, var(--primary-gold), var(--primary-gold-dark));
+        border-radius: 3px;
+        margin: 20px auto 0;
+    }
+
+    /* Grid responsivo - 3 columnas en PC, 1 en móvil */
+    .generators-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .generator-card {
+        background: var(--gradient-card);
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        height: 100%;
+        border: 1px solid rgba(255, 215, 0, 0.1);
+        position: relative;
+    }
+
+    .generator-card:hover {
+        transform: translateY(-8px);
+        border-color: rgba(255, 215, 0, 0.3);
+        box-shadow: var(--shadow-hover);
+    }
+
+    /* --- ETIQUETAS DE ESTADO (ESQUINAS) --- */
+    .status-badge-corner {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        z-index: 15;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .status-active {
+        background-color: var(--accent-green);
+        color: white;
+        border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .status-inactive {
+        background-color: #3a3a50;
+        color: #b0b0c5;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .generator-img {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        transition: filter 0.3s ease;
+    }
+
+    .generator-body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .generator-category {
+        font-size: 0.7rem;
+        color: var(--primary-gold);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 8px;
+    }
+
+    .generator-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .generator-rating {
+        margin-top: 15px;
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding-top: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .generator-rating i {
+        color: var(--primary-gold);
+    }
+
+    .btn-disabled {
+        background-color: #222236 !important;
+        color: #555570 !important;
+        border: 1px solid #2d2d44 !important;
+        cursor: not-allowed !important;
+        box-shadow: none !important;
+        transform: none !important;
+    }
+
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+    }
+    .animate-pulse {
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    /* ========== FOOTER ========== */
+    .footer-premium {
+        background: #0a0a1a;
+        color: var(--text-muted);
+        text-align: center;
+        padding: 50px 20px 30px;
+        margin-top: 60px;
+        border-top: 1px solid rgba(255, 215, 0, 0.2);
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .social-links a {
+        color: white;
+        background: rgba(255, 215, 0, 0.1);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+        background: var(--gradient-gold);
+        color: #1a1a2e;
+        transform: translateY(-3px);
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+    .copyright span {
+        color: var(--primary-gold);
+        font-weight: 700;
+    }
+
+    .copyright a {
+        color: var(--text-muted);
+        text-decoration: none;
+    }
+
+    .copyright a:hover {
+        color: var(--primary-gold);
+    }
+
+    /* ========== BACK TO TOP ========== */
+    .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background: var(--gradient-gold);
+        color: #1a1a2e;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .back-to-top.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .back-to-top:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        color: #0a0a1a;
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 992px) {
+        .menu-toggle {
+            display: block;
+        }
+        .nav-links-premium {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px 0;
+            gap: 15px;
+        }
+        .nav-links-premium.show {
+            display: flex;
+        }
+        .carousel-caption-premium h1 {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .carousel-img, .carousel-item-premium {
+            height: 400px;
+        }
+        .carousel-caption-premium h1 {
+            font-size: 1.5rem;
+        }
+        .section-header h1 {
+            font-size: 1.6rem;
+        }
+        .generators-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .carousel-img, .carousel-item-premium {
+            height: 350px;
+        }
+        .btn-carousel, .btn-casino-premium {
+            padding: 8px 20px;
+            font-size: 0.8rem;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="topbar-info d-flex justify-content-between flex-wrap">
+                        <div class="topbar-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cobertura Hípica Internacional</span>
+                        </div>
+                        <div class="topbar-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">magbisfajardo7@gmail.com</a>
+                        </div>
+                        <div class="topbar-item">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="navbar-premium">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div class="logo">
+                    <h1><span>WINNER</span>CHOICE</h1>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links-premium" id="navLinks">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="carousel-premium">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-item-premium">
+                    <img class="carousel-img" src="img/carrusel/carr1.webp" alt="Casino Online">
+                    <div class="carousel-caption-premium">
+                        <h5>HIPODROMOS AMERICANOS</h5>
+                        <h1>ACCEDA A LOS WINNER CHOICE</h1>
+                        <p>WINNER CHOICE</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-premium">
+                    <img class="carousel-img" src="img/carrusel/carr2.webp" alt="Apuestas Casino">
+                    <div class="carousel-caption-premium">
+                        <h5>GACETA AMERICANA DE CABALLOS</h5>
+                        <h1>RETROSPECTO PARA GULFSTREAM PARK</h1>
+                        <p>WINNER CHOICE</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-premium">
+                    <img class="carousel-img" src="img/carrusel/carr3.webp" alt="Premios Casino">
+                    <div class="carousel-caption-premium">
+                        <h5>HIPODROMOS AMERICANOS</h5>
+                        <h1>CARRERAS DE CABALLOS AMERICANAS</h1>
+                        <p>WINNER CHOICE</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Seccion Generadores De Pronosticos -->
+    <div class="container-fluid py-5">
+        <div class="container py-4">
+            <div class="section-header">
+                <span class="section-badge">REVISTAS PROFESIONALES</span>
+                <h1>Revistas <span>Americanas</span></h1>
+                <p>Selecciona un hipódromo para ver los retrospectos actualizados</p>
+                <div class="divider-gold"></div>
+            </div>
+
+            <!-- Grid dinamico que se llena desde data/revistas.json -->
+            <div class="generators-grid" id="revistas-grid">
+                <div class="text-center" style="grid-column: 1/-1; color: var(--primary-gold);">
+                    <i class="fas fa-spinner fa-spin"></i> Cargando revistas...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="footer-premium">
+        <div class="social-links">
+            <a href="https://www.instagram.com/dr.animalitos/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Dr.Aniamlitos/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@animalitotiktok" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>Dr. Animalitos</span></strong>. Todos los derechos reservados.
+            <br><a href="mailto:alexandermata834@gmail.com">magbisfajardo7@gmail.com</a>
+            <br><a href="politica.html">Política de Privacidad</a>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        // Menu movil toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        }
+
+        // Back to top button
+        const backToTop = document.getElementById('backToTop');
+        if (backToTop) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTop.classList.add('show');
+                } else {
+                    backToTop.classList.remove('show');
+                }
+            });
+
+            backToTop.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // Inicializar carrusel de Bootstrap
+        $(document).ready(function() {
+            $('#header-carousel').carousel({
+                interval: 5000,
+                pause: 'hover',
+                wrap: true
+            });
+        });
+
+        // Logica para cargar las revistas desde data/revistas.json
+        async function cargarTuWinnerRevistas() {
+            const grid = document.getElementById('revistas-grid');
+
+            try {
+                // Añadir parámetro único para saltar la caché del navegador
+                const respuesta = await fetch(`data/revistas.json?t=${new Date().getTime()}`);
+                
+                if (!respuesta.ok) {
+                    throw new Error('No se pudo cargar el archivo de datos');
+                }
+                
+                const data = await respuesta.json();
+                grid.innerHTML = '';
+
+                if (!data.hipodromos || data.hipodromos.length === 0) {
+                    grid.innerHTML = '<div class="text-center" style="grid-column: 1/-1; color: var(--text-muted);">No hay hipódromos configurados actualmente.</div>';
+                    return;
+                }
+
+                data.hipodromos.forEach(hipodromo => {
+                    const urlPdf = hipodromo.revistas ? hipodromo.revistas.espanol : '#';
+                    
+                    let badgeHTML = '';
+                    let botonHTML = '';
+                    let imgEstilo = '';
+                    let tituloEstilo = '';
+
+                    // Si está activo, renderizamos verde, si no, deshabilitado y gris
+                    if (hipodromo.activo) {
+                        badgeHTML = `<span class="status-badge-corner status-active"><i class="fas fa-circle mr-1 small animate-pulse" style="font-size:8px; vertical-align:middle;"></i> Activo</span>`;
+                        botonHTML = `<button class="btn-carousel btn-ver-winner" onclick="window.open('${urlPdf}', '_blank', 'noopener,noreferrer')">Ver winner</button>`;
+                    } else {
+                        badgeHTML = `<span class="status-badge-corner status-inactive">No Disp.</span>`;
+                        botonHTML = `<button class="btn-carousel btn-disabled" disabled>No disponible</button>`;
+                        imgEstilo = 'filter: grayscale(0.8) brightness(0.4);';
+                        tituloEstilo = 'color: var(--text-muted);';
+                    }
+
+                    const card = document.createElement('div');
+                    card.className = 'generator-card';
+                    card.innerHTML = `
+                        ${badgeHTML}
+                        <img class="generator-img" src="${hipodromo.logo}" alt="${hipodromo.nombre}" style="${imgEstilo}">
+                        <div class="generator-body">
+                            <div class="generator-category">TUWINNER</div>
+                            <h4 class="generator-title" style="${tituloEstilo}">${hipodromo.nombre}</h4>
+                            ${botonHTML}
+                            <div class="generator-rating">
+                                <i class="fas fa-star"></i> 4.8 (Estable)
+                            </div>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Error:', error);
+                grid.innerHTML = '<div class="text-center" style="grid-column: 1/-1; color: #e74c3c;">Error al cargar los retrospectos dinámicos. Por favor reintente.</div>';
+            }
+        }
+
+        // Ejecutar cuando la pagina cargue
+        document.addEventListener('DOMContentLoaded', cargarTuWinnerRevistas);
+
+        // ============================================
+        // CAPA DE SEGURIDAD - Protección básica
+        // ============================================
+        (function() {
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'F12' || 
+                    (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+                    (e.ctrlKey && e.key === 'u') || 
+                    (e.ctrlKey && e.key === 's') || 
+                    (e.metaKey && e.key === 's')) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+                return false;
+            });
+        })();
+    </script>
+</body>
+</html>
