@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdate": "2026-05-29T17:32:45.538933",
+    "lastUpdate": "2026-05-29T18:01:23.602790",
     "fechaCartelera": "2026-05-29",
-    "totalHipodromos": 16
+    "totalHipodromos": 19
   },
   "hipodromos": [
     {
@@ -161,6 +161,36 @@
       "logo": "img/winner/hip16.webp",
       "revistas": {
         "espanol": "pdfs/cd.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "Laurel-Park",
+      "nombre": "Laurel Park",
+      "logo": "img/winner/hip17.webp",
+      "revistas": {
+        "espanol": "pdfs/lrl.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "Prairie-Meadows",
+      "nombre": "Prairie Meadows",
+      "logo": "img/winner/hip18.webp",
+      "revistas": {
+        "espanol": "pdfs/prm.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "Woodbine-T-bred",
+      "nombre": "Woodbine T-bred",
+      "logo": "img/winner/hip19.webp",
+      "revistas": {
+        "espanol": "pdfs/wo.pdf"
       },
       "activo": true,
       "ultimaActualizacion": "2026-05-29"
