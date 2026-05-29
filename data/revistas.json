@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "lastUpdate": "2026-05-29T01:30:57.639233",
+    "fechaCartelera": "2026-05-28",
+    "totalHipodromos": 16
+  },
+  "hipodromos": [
+    {
+      "id": "belterra-park",
+      "nombre": "Belterra Park",
+      "logo": "img/winner/hip1.webp",
+      "revistas": {
+        "espanol": "pdfs/btp.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "charles-town",
+      "nombre": "Charles Town",
+      "logo": "img/winner/hip2.webp",
+      "revistas": {
+        "espanol": "pdfs/ct.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "delaware-park",
+      "nombre": "Delaware Park",
+      "logo": "img/winner/hip3.webp",
+      "revistas": {
+        "espanol": "pdfs/del.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "delta-downs",
+      "nombre": "Delta Downs",
+      "logo": "img/winner/hip4.webp",
+      "revistas": {
+        "espanol": "pdfs/ded.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "evangeline-downs",
+      "nombre": "Evangeline Downs",
+      "logo": "img/winner/hip5.webp",
+      "revistas": {
+        "espanol": "pdfs/evd.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "hawthorne-park",
+      "nombre": "Hawthorne Park",
+      "logo": "img/winner/hip6.webp",
+      "revistas": {
+        "espanol": "pdfs/haw.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "thistledown",
+      "nombre": "ThistleDown",
+      "logo": "img/winner/hip7.webp",
+      "revistas": {
+        "espanol": "pdfs/tdn.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "mountaineer",
+      "nombre": "Mountaineer",
+      "logo": "img/winner/hip8.webp",
+      "revistas": {
+        "espanol": "#"
+      },
+      "activo": false,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "assiniboia",
+      "nombre": "Assiniboia Downs",
+      "logo": "img/winner/hip9.webp",
+      "revistas": {
+        "espanol": "#"
+      },
+      "activo": false,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "belmont-park",
+      "nombre": "Belmont Park",
+      "logo": "img/winner/hip10.webp",
+      "revistas": {
+        "espanol": "#"
+      },
+      "activo": false,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "gulfstream-park",
+      "nombre": "Gulfstream Park",
+      "logo": "img/winner/hip11.webp",
+      "revistas": {
+        "espanol": "#"
+      },
+      "activo": false,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "parx-racing",
+      "nombre": "Parx Racing",
+      "logo": "img/winner/hip12.webp",
+      "revistas": {
+        "espanol": "#"
+      },
+      "activo": false,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "santa-anita",
+      "nombre": "Santa Anita Park",
+      "logo": "img/winner/hip13.webp",
+      "revistas": {
+        "espanol": "#"
+      },
+      "activo": false,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "indiana-grand",
+      "nombre": "Horseshoe Indianapolis",
+      "logo": "img/winner/hip14.webp",
+      "revistas": {
+        "espanol": "pdfs/ind.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "penn-national",
+      "nombre": "Penn National",
+      "logo": "img/winner/hip15.webp",
+      "revistas": {
+        "espanol": "pdfs/pen.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    },
+    {
+      "id": "churchill-downs",
+      "nombre": "Churchill Downs",
+      "logo": "img/winner/hip16.webp",
+      "revistas": {
+        "espanol": "pdfs/cd.pdf"
+      },
+      "activo": true,
+      "ultimaActualizacion": "2026-05-29"
+    }
+  ]
+}
