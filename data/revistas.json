@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-05-31T15:16:24.342094",
+    "lastUpdate": "2026-05-31T17:03:30.938705",
     "fechaCartelera": "2026-05-31",
     "totalHipodromos": 19
   },
@@ -60,9 +60,9 @@
       "nombre": "Hawthorne Park",
       "logo": "img/winner/hip6.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/haw.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -80,9 +80,9 @@
       "nombre": "Mountaineer",
       "logo": "img/winner/hip8.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/mnr.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -110,9 +110,9 @@
       "nombre": "Gulfstream Park",
       "logo": "img/winner/hip11.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/gp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -130,9 +130,9 @@
       "nombre": "Santa Anita Park",
       "logo": "img/winner/hip13.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/sa.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -160,9 +160,9 @@
       "nombre": "Churchill Downs",
       "logo": "img/winner/hip16.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/cd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -170,9 +170,9 @@
       "nombre": "Laurel Park",
       "logo": "img/winner/hip17.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/lrl.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -180,9 +180,9 @@
       "nombre": "Prairie Meadows",
       "logo": "img/winner/hip18.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/prm.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     },
     {
@@ -190,9 +190,9 @@
       "nombre": "Woodbine T-bred",
       "logo": "img/winner/hip19.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/wo.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-05-31"
     }
   ]
