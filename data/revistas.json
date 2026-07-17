@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-07-17T15:10:53.731247",
+    "lastUpdate": "2026-07-17T17:08:24.305056",
     "fechaCartelera": "2026-07-17",
     "totalHipodromos": 19
   },
@@ -10,9 +10,9 @@
       "nombre": "Belterra Park",
       "logo": "img/winner/hip1.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/btp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-17"
     },
     {
@@ -20,9 +20,9 @@
       "nombre": "Charles Town",
       "logo": "img/winner/hip2.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/ct.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-17"
     },
     {
@@ -30,9 +30,9 @@
       "nombre": "Delaware Park",
       "logo": "img/winner/hip3.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/del.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-17"
     },
     {
@@ -40,9 +40,9 @@
       "nombre": "Delta Downs",
       "logo": "img/winner/hip4.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/ded.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-17"
     },
     {
@@ -50,9 +50,9 @@
       "nombre": "Evangeline Downs",
       "logo": "img/winner/hip5.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/evd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-17"
     },
     {
@@ -150,9 +150,9 @@
       "nombre": "Penn National",
       "logo": "img/winner/hip15.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/pen.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-17"
     },
     {
