@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-07-21T15:40:49.694502",
+    "lastUpdate": "2026-07-21T17:14:49.786687",
     "fechaCartelera": "2026-07-21",
     "totalHipodromos": 19
   },
@@ -30,9 +30,9 @@
       "nombre": "Delaware Park",
       "logo": "img/winner/hip3.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/del.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-21"
     },
     {
@@ -70,9 +70,9 @@
       "nombre": "ThistleDown",
       "logo": "img/winner/hip7.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/tdn.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-21"
     },
     {
@@ -80,9 +80,9 @@
       "nombre": "Mountaineer",
       "logo": "img/winner/hip8.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/mnr.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-21"
     },
     {
@@ -90,9 +90,9 @@
       "nombre": "Assiniboia Downs",
       "logo": "img/winner/hip9.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/asd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-21"
     },
     {
@@ -120,9 +120,9 @@
       "nombre": "Parx Racing",
       "logo": "img/winner/hip12.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/prx.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-21"
     },
     {
