@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-07-22T15:38:18.576924",
+    "lastUpdate": "2026-07-22T17:14:33.256455",
     "fechaCartelera": "2026-07-22",
     "totalHipodromos": 19
   },
@@ -10,9 +10,9 @@
       "nombre": "Belterra Park",
       "logo": "img/winner/hip1.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/btp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
@@ -30,9 +30,9 @@
       "nombre": "Delaware Park",
       "logo": "img/winner/hip3.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/del.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
@@ -70,9 +70,9 @@
       "nombre": "ThistleDown",
       "logo": "img/winner/hip7.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/tdn.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
@@ -80,9 +80,9 @@
       "nombre": "Mountaineer",
       "logo": "img/winner/hip8.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/mnr.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
@@ -90,9 +90,9 @@
       "nombre": "Assiniboia Downs",
       "logo": "img/winner/hip9.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/asd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
@@ -120,9 +120,9 @@
       "nombre": "Parx Racing",
       "logo": "img/winner/hip12.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/prx.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
@@ -150,9 +150,9 @@
       "nombre": "Penn National",
       "logo": "img/winner/hip15.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/pen.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-07-22"
     },
     {
