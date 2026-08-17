@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-08-17T15:21:11.693388",
+    "lastUpdate": "2026-08-17T16:23:07.712549",
     "fechaCartelera": "2026-08-17",
     "totalHipodromos": 19
   },
@@ -70,9 +70,9 @@
       "nombre": "ThistleDown",
       "logo": "img/winner/hip7.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/tdn.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-17"
     },
     {
@@ -110,9 +110,9 @@
       "nombre": "Gulfstream Park",
       "logo": "img/winner/hip11.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/gp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-17"
     },
     {
@@ -120,9 +120,9 @@
       "nombre": "Parx Racing",
       "logo": "img/winner/hip12.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/prx.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-17"
     },
     {
