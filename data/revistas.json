@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-08-20T15:29:21.162600",
+    "lastUpdate": "2026-08-20T16:30:32.236150",
     "fechaCartelera": "2026-08-20",
     "totalHipodromos": 19
   },
@@ -10,9 +10,9 @@
       "nombre": "Belterra Park",
       "logo": "img/winner/hip1.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/btp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -20,9 +20,9 @@
       "nombre": "Charles Town",
       "logo": "img/winner/hip2.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/ct.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -40,9 +40,9 @@
       "nombre": "Delta Downs",
       "logo": "img/winner/hip4.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/ded.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -50,9 +50,9 @@
       "nombre": "Evangeline Downs",
       "logo": "img/winner/hip5.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/evd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -70,9 +70,9 @@
       "nombre": "ThistleDown",
       "logo": "img/winner/hip7.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/tdn.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -140,9 +140,9 @@
       "nombre": "Horseshoe Indianapolis",
       "logo": "img/winner/hip14.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/ind.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -150,9 +150,9 @@
       "nombre": "Penn National",
       "logo": "img/winner/hip15.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/pen.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     },
     {
@@ -190,9 +190,9 @@
       "nombre": "Woodbine T-bred",
       "logo": "img/winner/hip19.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/wo.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-20"
     }
   ]
