@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdate": "2026-08-22T16:19:12.983162",
-    "fechaCartelera": "2026-08-22",
+    "lastUpdate": "2026-08-23T14:19:36.092240",
+    "fechaCartelera": "2026-08-23",
     "totalHipodromos": 19
   },
   "hipodromos": [
@@ -10,20 +10,20 @@
       "nombre": "Belterra Park",
       "logo": "img/winner/hip1.webp",
       "revistas": {
-        "espanol": "pdfs/btp.pdf"
+        "espanol": "#"
       },
-      "activo": true,
-      "ultimaActualizacion": "2026-08-22"
+      "activo": false,
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "charles-town",
       "nombre": "Charles Town",
       "logo": "img/winner/hip2.webp",
       "revistas": {
-        "espanol": "pdfs/ct.pdf"
+        "espanol": "#"
       },
-      "activo": true,
-      "ultimaActualizacion": "2026-08-22"
+      "activo": false,
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "delaware-park",
@@ -33,27 +33,27 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "delta-downs",
       "nombre": "Delta Downs",
       "logo": "img/winner/hip4.webp",
       "revistas": {
-        "espanol": "pdfs/ded.pdf"
+        "espanol": "#"
       },
-      "activo": true,
-      "ultimaActualizacion": "2026-08-22"
+      "activo": false,
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "evangeline-downs",
       "nombre": "Evangeline Downs",
       "logo": "img/winner/hip5.webp",
       "revistas": {
-        "espanol": "pdfs/evd.pdf"
+        "espanol": "#"
       },
-      "activo": true,
-      "ultimaActualizacion": "2026-08-22"
+      "activo": false,
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "hawthorne-park",
@@ -63,7 +63,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "thistledown",
@@ -73,7 +73,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "mountaineer",
@@ -83,7 +83,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "assiniboia",
@@ -93,7 +93,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "belmont-park",
@@ -103,7 +103,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "gulfstream-park",
@@ -113,7 +113,7 @@
         "espanol": "pdfs/gp.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "parx-racing",
@@ -123,7 +123,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "santa-anita",
@@ -133,7 +133,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "indiana-grand",
@@ -143,7 +143,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "penn-national",
@@ -153,7 +153,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "churchill-downs",
@@ -163,7 +163,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "Laurel-Park",
@@ -173,7 +173,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "Prairie-Meadows",
@@ -183,7 +183,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     },
     {
       "id": "Woodbine-T-bred",
@@ -193,7 +193,7 @@
         "espanol": "pdfs/wo.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-08-22"
+      "ultimaActualizacion": "2026-08-23"
     }
   ]
 }
