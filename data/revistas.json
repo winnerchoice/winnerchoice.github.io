@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdate": "2026-08-24T15:35:31.901312",
+    "lastUpdate": "2026-08-24T16:32:46.777393",
     "fechaCartelera": "2026-08-24",
     "totalHipodromos": 19
   },
@@ -70,9 +70,9 @@
       "nombre": "ThistleDown",
       "logo": "img/winner/hip7.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/tdn.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-24"
     },
     {
@@ -90,9 +90,9 @@
       "nombre": "Assiniboia Downs",
       "logo": "img/winner/hip9.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/asd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-24"
     },
     {
@@ -110,9 +110,9 @@
       "nombre": "Gulfstream Park",
       "logo": "img/winner/hip11.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/gp.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-24"
     },
     {
@@ -120,9 +120,9 @@
       "nombre": "Parx Racing",
       "logo": "img/winner/hip12.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/prx.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-24"
     },
     {
@@ -140,9 +140,9 @@
       "nombre": "Horseshoe Indianapolis",
       "logo": "img/winner/hip14.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/ind.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-08-24"
     },
     {
