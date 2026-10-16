@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdate": "2026-10-15T17:59:21.621939",
-    "fechaCartelera": "2026-10-15",
+    "lastUpdate": "2026-10-16T17:47:26.284954",
+    "fechaCartelera": "2026-10-16",
     "totalHipodromos": 19
   },
   "hipodromos": [
@@ -13,7 +13,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "charles-town",
@@ -23,7 +23,7 @@
         "espanol": "pdfs/ct.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "delaware-park",
@@ -33,7 +33,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "delta-downs",
@@ -43,7 +43,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "evangeline-downs",
@@ -53,7 +53,7 @@
         "espanol": "pdfs/evd.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "hawthorne-park",
@@ -63,7 +63,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "thistledown",
@@ -73,7 +73,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "mountaineer",
@@ -83,7 +83,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "assiniboia",
@@ -93,7 +93,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "belmont-park",
@@ -103,17 +103,17 @@
         "espanol": "pdfs/bel.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "gulfstream-park",
       "nombre": "Gulfstream Park",
       "logo": "img/winner/hip11.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/gp.pdf"
       },
-      "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "activo": true,
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "parx-racing",
@@ -123,27 +123,27 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "santa-anita",
       "nombre": "Santa Anita Park",
       "logo": "img/winner/hip13.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/sa.pdf"
       },
-      "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "activo": true,
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "indiana-grand",
       "nombre": "Horseshoe Indianapolis",
       "logo": "img/winner/hip14.webp",
       "revistas": {
-        "espanol": "pdfs/ind.pdf"
+        "espanol": "#"
       },
-      "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "activo": false,
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "penn-national",
@@ -153,7 +153,7 @@
         "espanol": "pdfs/pen.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "churchill-downs",
@@ -163,7 +163,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "Laurel-Park",
@@ -173,7 +173,7 @@
         "espanol": "pdfs/lrl.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "Prairie-Meadows",
@@ -183,7 +183,7 @@
         "espanol": "#"
       },
       "activo": false,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     },
     {
       "id": "Woodbine-T-bred",
@@ -193,7 +193,7 @@
         "espanol": "pdfs/wo.pdf"
       },
       "activo": true,
-      "ultimaActualizacion": "2026-10-15"
+      "ultimaActualizacion": "2026-10-16"
     }
   ]
 }
