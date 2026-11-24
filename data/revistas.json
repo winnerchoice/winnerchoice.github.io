@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdate": "2026-11-24T01:27:40.636514",
-    "fechaCartelera": "2026-11-23",
+    "lastUpdate": "2026-11-24T23:21:45.593812",
+    "fechaCartelera": "2026-11-24",
     "totalHipodromos": 19
   },
   "hipodromos": [
@@ -50,9 +50,9 @@
       "nombre": "Evangeline Downs",
       "logo": "img/winner/hip5.webp",
       "revistas": {
-        "espanol": "#"
+        "espanol": "pdfs/evd.pdf"
       },
-      "activo": false,
+      "activo": true,
       "ultimaActualizacion": "2026-11-24"
     },
     {
